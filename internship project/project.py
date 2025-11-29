@@ -16,7 +16,7 @@ project = st.selectbox(
         "Movie Ticket Booking",
         "Positive/Negative Checker",
         "File Transfer App",
-        "Improved Streamlit Dashboard",
+        "Streamlit Dashboard",
         "OpenAI Chat App",
         "Text-to-Speech Tool",
         "XO Game",
@@ -190,3 +190,4 @@ elif project == "Flask API Project (Demo)":
     if st.button("Fetch API Data"):
         st.success("✅ API Data Fetched Successfully")
         st.json({"status": "success", "data": [10, 20, 30, 40]})
+
